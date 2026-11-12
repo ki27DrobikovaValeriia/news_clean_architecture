@@ -1,2 +1,1 @@
-// налаштування сховища даних
-const String storageName = 'in-memory';
+const String storageName = 'xml-file';
