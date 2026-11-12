@@ -13,6 +13,7 @@ class ConsoleMenu {
   ConsoleMenu(this.getNews, this.addBookmark, this.getBookmarks);
 
   void run() {
+    print('Ласкаво просимо до застосунку новин!');
     bool working = true;
 
     while (working) {
