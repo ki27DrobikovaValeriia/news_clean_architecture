@@ -5,4 +5,9 @@ class NewsItem {
   final String time;
 
   NewsItem(this.id, this.title, this.category, this.time);
+
+  @override
+  String toString() {
+    return '[$id] $title ($category, $time)';
+  }
 }
