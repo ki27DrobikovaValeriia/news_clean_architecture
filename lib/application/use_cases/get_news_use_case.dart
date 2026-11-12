@@ -1,5 +1,5 @@
-import '../../domain/entities/news_item.dart';
-import '../../domain/interfaces/news_repository.dart';
+import '../../../domain/entities/news_item.dart';
+import '../../../domain/interfaces/news_repository.dart';
 
 class GetNewsUseCase {
   final NewsRepository repository;
