@@ -1,3 +1,4 @@
+// Сутність новини: id, назва, категорія та час публікації
 class NewsItem {
   final int id;
   final String title;
